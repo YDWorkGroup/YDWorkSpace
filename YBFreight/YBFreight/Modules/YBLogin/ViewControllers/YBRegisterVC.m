@@ -9,7 +9,7 @@
 #import "YBRegisterVC.h"
 
 #define kMargin 30
-#define kControlHeight 40
+#define kControlHeight 40 
 
 @interface YBRegisterVC ()
 
@@ -26,6 +26,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"boss is a bitch");
     
     [self initUI];
 }
